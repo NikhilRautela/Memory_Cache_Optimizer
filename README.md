@@ -6,7 +6,7 @@ A comprehensive system utility for memory and cache monitoring and optimization,
 
 - Real-time memory usage monitoring and optimization
 - Cache performance tracking and optimization
-- Support for Windows, Linux, and macOS
+- Designed specifically for Windows systems
 - Detailed before/after optimization comparisons
 - Performance metrics tracking
 
@@ -21,7 +21,7 @@ cd <repository-name>
 2. Create a virtual environment (recommended):
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -52,8 +52,7 @@ python desktop_app.py
 ```
 
 For full optimization capabilities, run with administrator privileges:
-- On Windows: Right-click and select "Run as administrator"
-- On Linux/macOS: `sudo python desktop_app.py`
+- Right-click and select "Run as administrator"
 
 **Advantages:**
 - Native UI performance
@@ -100,21 +99,17 @@ http://localhost:5000
 
 ## System Requirements
 
+- Windows 10/11
 - Python 3.7+
 - For desktop interface: PyQt5
 - For web interface: Modern web browser
 - Administrator privileges for full optimization capabilities
-- Supported operating systems: Windows, Linux, macOS
 
 ## Note on Administrator Privileges
 
 Some optimization features require administrator privileges:
-- Memory page file/swap optimization
+- Memory page file optimization
 - System cache clearing
 - DNS cache flushing
 
 Without admin privileges, the application will still function but with limited optimization capabilities.
-
-## License
-
-MIT License 
